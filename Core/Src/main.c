@@ -97,12 +97,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    for (uint8_t i = 0; i < n; i++)
-    {
-      LED_On(leds[i]);
-      HAL_Delay(100);
-      LED_Off(leds[i]);
-    }
+    // for (uint8_t i = 0; i < n; i++)
+    // {
+    //   LED_On(leds[i]);
+    //   HAL_Delay(100);
+    //   LED_Off(leds[i]);
+    // }
 
     /* USER CODE BEGIN 3 */
     /* USER CODE END 3 */
