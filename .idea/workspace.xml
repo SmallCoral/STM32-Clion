@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21fd63e-a475-4f69-85d9-3d5787c5387d" name="更改" comment="1.22">
+    <list default="true" id="b21fd63e-a475-4f69-85d9-3d5787c5387d" name="更改" comment="1.22.2">
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,7 @@
       <workItem from="1737368077799" duration="186000" />
       <workItem from="1737368323460" duration="66000" />
       <workItem from="1737384107681" duration="1095000" />
-      <workItem from="1737529975954" duration="774000" />
+      <workItem from="1737529975954" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="1.22">
       <option name="closed" value="true" />
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737530686686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.22.2">
+      <option name="closed" value="true" />
+      <created>1737530779794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737530779794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.22" />
+    <MESSAGE value="1.22.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.22.2" />
   </component>
 </project>
