@@ -97,19 +97,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    for (uint8_t i = 0; i < n; i++)
-    {
-      LED_On(leds[i]);
-      HAL_Delay(100);
-      LED_Off(leds[i]);
-    }
-
 
     /* USER CODE BEGIN 3 */
-    /* USER CODE END 3 */
   }
   /* USER CODE END 3 */
 }
+
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -148,6 +141,10 @@ void SystemClock_Config(void)
     Error_Handler();
   }
 }
+
+/* USER CODE BEGIN 4 */
+
+/* USER CODE END 4 */
 
 /**
   * @brief  This function is executed in case of error occurrence.
