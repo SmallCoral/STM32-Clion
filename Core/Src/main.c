@@ -96,8 +96,11 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   //发送一个字符串
-  HAL_UART_Transmit(&huart1, "wdnmd\n", 7, 1000);
+  //HAL_UART_Transmit(&huart1, "wdnmd\n", 7, 1000);
 
+  printf("hello world\n");
+  int a = 100;
+  printf("a = %d\n", a);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -193,3 +196,28 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+
+/* 告知连接器不从C库链接使用半主机的函数 */
+#pragma import(__use_no_semihosting)
+
+/* 定义 _sys_exit() 以避免使用半主机模式 */
+void _sys_exit(int x)
+
+{
+
+  x = x;
+
+}
+
+/* 标准库需要的支持类型 */
+
+struct __FILE
+
+{
+
+  int handle;
+
+};
+
+FILE __stdout;

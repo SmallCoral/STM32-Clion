@@ -50,3 +50,9 @@
 6	101	7607140530086808	CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj	277167943fbd3247
 2	105	7607140529989678	CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj	23d1963ff6d9187c
 105	238	7607140531085868	STM32-Clion.elf	666795227657aec
+2	87	7607186055507537	CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj	23d1963ff6d9187c
+6	91	7607186055537543	CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj	fb80ae5af22baca2
+91	238	7607186056387821	STM32-Clion.elf	666795227657aec
+3	97	7607194778824788	CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj	23d1963ff6d9187c
+6	98	7607194778864789	CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj	fb80ae5af22baca2
+98	228	7607194779784239	STM32-Clion.elf	666795227657aec

@@ -28,10 +28,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b21fd63e-a475-4f69-85d9-3d5787c5387d" name="更改" comment="1.24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.hex" afterDir="false" />
@@ -137,11 +140,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.STM32-Clion">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="STM32-Clion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32-Clion" TARGET_NAME="STM32-Clion.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32-Clion" RUN_TARGET_NAME="STM32-Clion.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -193,7 +191,8 @@
       <workItem from="1738749050909" duration="458000" />
       <workItem from="1738749522953" duration="156000" />
       <workItem from="1738942170575" duration="646000" />
-      <workItem from="1738997858231" duration="12596000" />
+      <workItem from="1738997858231" duration="15564000" />
+      <workItem from="1739016813156" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="1.22">
       <option name="closed" value="true" />
