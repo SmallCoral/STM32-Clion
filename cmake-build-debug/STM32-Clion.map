@@ -87,7 +87,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
- .bss.size      0x00000000        0x1 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -157,7 +156,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .text.HAL_UART_MspDeInit
-                0x00000000       0x30 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                0x00000000       0x34 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .text          0x00000000       0x14 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
@@ -209,8 +208,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.HAL_NVIC_EnableIRQ
-                0x00000000       0x1c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_DisableIRQ
                 0x00000000       0x24 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SystemReset
@@ -246,10 +243,6 @@ Discarded input sections
                 0x00000000       0x52 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text.HAL_DMA_Start_IT
                 0x00000000       0x76 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .text.HAL_DMA_Abort
-                0x00000000       0x46 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .text.HAL_DMA_Abort_IT
-                0x00000000      0x16c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text.HAL_DMA_PollForTransfer
                 0x00000000      0x54c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text.HAL_DMA_IRQHandler
@@ -262,18 +255,6 @@ Discarded input sections
                 0x00000000        0x6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text.HAL_DMA_GetError
                 0x00000000        0x4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x00000000      0x84b CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x00000000      0x223 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_loc     0x00000000      0x7ce CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_aranges
-                0x00000000       0x80 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_ranges  0x00000000       0x70 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00000000      0xd53 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_str     0x00000000      0x623 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .comment       0x00000000       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x00000000      0x140 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .data          0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
@@ -536,8 +517,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTxTransfer
                 0x00000000       0x20 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_Transmit_IT
-                0x00000000       0x60 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_MspInit
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_HalfDuplex_Init
@@ -550,6 +529,8 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_DeInit
                 0x00000000       0x34 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_Receive
+                0x00000000       0xd2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_IT
                 0x00000000       0x38 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_DMA
@@ -570,26 +551,16 @@ Discarded input sections
                 0x00000000       0x6c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_AbortReceive
                 0x00000000       0xa6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UART_TxCpltCallback
-                0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMATransmitCplt
                 0x00000000       0x4c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_EndTransmit_IT
-                0x00000000       0x1a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_TxHalfCpltCallback
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMATxHalfCplt
                 0x00000000        0xa CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UART_RxCpltCallback
-                0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_RxHalfCpltCallback
-                0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UART_ErrorCallback
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAError
                 0x00000000       0x58 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_DMAAbortOnError
-                0x00000000       0x10 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_AbortCpltCallback
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Abort_IT
@@ -612,10 +583,6 @@ Discarded input sections
                 0x00000000       0x16 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
                 0x00000000        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_Receive_IT
-                0x00000000       0xe6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UART_IRQHandler
-                0x00000000      0x288 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMARxHalfCplt
                 0x00000000       0x1e CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAReceiveCplt
@@ -634,12 +601,8 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_GetError
                 0x00000000        0x4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_Start_Receive_IT
-                0x00000000       0x36 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Receive_IT
                 0x00000000       0x26 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UARTEx_ReceiveToIdle_IT
-                0x00000000       0x66 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Start_Receive_DMA
                 0x00000000       0xa4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Receive_DMA
@@ -822,7 +785,7 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
                 0x08000000                g_pfnVectors
                 0x080001e4                . = ALIGN (0x4)
 
-.text           0x080001e4     0x1094
+.text           0x080001e4     0x1670
                 0x080001e4                . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -835,229 +798,267 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
  .text.SystemClock_Config
                 0x08000218       0x64 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
                 0x08000218                SystemClock_Config
- .text.main     0x0800027c       0x50 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+ .text.main     0x0800027c       0x60 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
                 0x0800027c                main
  .text.HAL_MspInit
-                0x080002cc       0x44 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x080002cc                HAL_MspInit
+                0x080002dc       0x44 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x080002dc                HAL_MspInit
  .text.NMI_Handler
-                0x08000310        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000310                NMI_Handler
+                0x08000320        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000320                NMI_Handler
  .text.HardFault_Handler
-                0x08000312        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000312                HardFault_Handler
+                0x08000322        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000322                HardFault_Handler
  .text.MemManage_Handler
-                0x08000314        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000314                MemManage_Handler
+                0x08000324        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000324                MemManage_Handler
  .text.BusFault_Handler
-                0x08000316        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000316                BusFault_Handler
+                0x08000326        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000326                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000318        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000318                UsageFault_Handler
+                0x08000328        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000328                UsageFault_Handler
  .text.SVC_Handler
-                0x0800031a        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800031a                SVC_Handler
+                0x0800032a        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800032a                SVC_Handler
  .text.DebugMon_Handler
-                0x0800031c        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800031c                DebugMon_Handler
+                0x0800032c        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800032c                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800031e        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800031e                PendSV_Handler
+                0x0800032e        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800032e                PendSV_Handler
  .text.SysTick_Handler
-                0x08000320        0x8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000320                SysTick_Handler
+                0x08000330        0x8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000330                SysTick_Handler
+ .text.USART1_IRQHandler
+                0x08000338       0x10 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000338                USART1_IRQHandler
+ .text.HAL_UARTEx_RxEventCallback
+                0x08000348       0x14 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000348                HAL_UARTEx_RxEventCallback
  .text.SystemInit
-                0x08000328        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08000328                SystemInit
- *fill*         0x0800032a        0x2 
+                0x0800035c        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800035c                SystemInit
+ *fill*         0x0800035e        0x2 
  .text.MX_USART1_UART_Init
-                0x0800032c       0x34 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
-                0x0800032c                MX_USART1_UART_Init
+                0x08000360       0x34 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                0x08000360                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08000360       0x78 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
-                0x08000360                HAL_UART_MspInit
+                0x08000394       0x88 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                0x08000394                HAL_UART_MspInit
  .text.Reset_Handler
-                0x080003d8       0x48 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
-                0x080003d8                Reset_Handler
+                0x0800041c       0x48 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+                0x0800041c                Reset_Handler
  .text.Default_Handler
-                0x08000420        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
-                0x08000420                RTC_Alarm_IRQHandler
-                0x08000420                EXTI2_IRQHandler
-                0x08000420                TIM8_TRG_COM_IRQHandler
-                0x08000420                TIM8_CC_IRQHandler
-                0x08000420                TIM1_CC_IRQHandler
-                0x08000420                TIM6_IRQHandler
-                0x08000420                PVD_IRQHandler
-                0x08000420                SDIO_IRQHandler
-                0x08000420                EXTI3_IRQHandler
-                0x08000420                EXTI0_IRQHandler
-                0x08000420                I2C2_EV_IRQHandler
-                0x08000420                ADC1_2_IRQHandler
-                0x08000420                SPI1_IRQHandler
-                0x08000420                TAMPER_IRQHandler
-                0x08000420                TIM8_UP_IRQHandler
-                0x08000420                DMA2_Channel2_IRQHandler
-                0x08000420                DMA1_Channel4_IRQHandler
-                0x08000420                USART3_IRQHandler
-                0x08000420                RTC_IRQHandler
-                0x08000420                DMA1_Channel7_IRQHandler
-                0x08000420                CAN1_RX1_IRQHandler
-                0x08000420                UART5_IRQHandler
-                0x08000420                ADC3_IRQHandler
-                0x08000420                TIM4_IRQHandler
-                0x08000420                DMA2_Channel1_IRQHandler
-                0x08000420                I2C1_EV_IRQHandler
-                0x08000420                DMA1_Channel6_IRQHandler
-                0x08000420                UART4_IRQHandler
-                0x08000420                TIM3_IRQHandler
-                0x08000420                RCC_IRQHandler
-                0x08000420                TIM1_TRG_COM_IRQHandler
-                0x08000420                DMA1_Channel1_IRQHandler
-                0x08000420                Default_Handler
-                0x08000420                EXTI15_10_IRQHandler
-                0x08000420                TIM7_IRQHandler
-                0x08000420                TIM5_IRQHandler
-                0x08000420                EXTI9_5_IRQHandler
-                0x08000420                SPI2_IRQHandler
-                0x08000420                DMA1_Channel5_IRQHandler
-                0x08000420                EXTI4_IRQHandler
-                0x08000420                USB_LP_CAN1_RX0_IRQHandler
-                0x08000420                USB_HP_CAN1_TX_IRQHandler
-                0x08000420                DMA1_Channel3_IRQHandler
-                0x08000420                FSMC_IRQHandler
-                0x08000420                TIM1_UP_IRQHandler
-                0x08000420                WWDG_IRQHandler
-                0x08000420                TIM2_IRQHandler
-                0x08000420                TIM1_BRK_IRQHandler
-                0x08000420                EXTI1_IRQHandler
-                0x08000420                DMA2_Channel4_5_IRQHandler
-                0x08000420                USART2_IRQHandler
-                0x08000420                I2C2_ER_IRQHandler
-                0x08000420                DMA1_Channel2_IRQHandler
-                0x08000420                TIM8_BRK_IRQHandler
-                0x08000420                CAN1_SCE_IRQHandler
-                0x08000420                FLASH_IRQHandler
-                0x08000420                USART1_IRQHandler
-                0x08000420                SPI3_IRQHandler
-                0x08000420                I2C1_ER_IRQHandler
-                0x08000420                USBWakeUp_IRQHandler
-                0x08000420                DMA2_Channel3_IRQHandler
- *fill*         0x08000422        0x2 
+                0x08000464        0x2 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+                0x08000464                RTC_Alarm_IRQHandler
+                0x08000464                EXTI2_IRQHandler
+                0x08000464                TIM8_TRG_COM_IRQHandler
+                0x08000464                TIM8_CC_IRQHandler
+                0x08000464                TIM1_CC_IRQHandler
+                0x08000464                TIM6_IRQHandler
+                0x08000464                PVD_IRQHandler
+                0x08000464                SDIO_IRQHandler
+                0x08000464                EXTI3_IRQHandler
+                0x08000464                EXTI0_IRQHandler
+                0x08000464                I2C2_EV_IRQHandler
+                0x08000464                ADC1_2_IRQHandler
+                0x08000464                SPI1_IRQHandler
+                0x08000464                TAMPER_IRQHandler
+                0x08000464                TIM8_UP_IRQHandler
+                0x08000464                DMA2_Channel2_IRQHandler
+                0x08000464                DMA1_Channel4_IRQHandler
+                0x08000464                USART3_IRQHandler
+                0x08000464                RTC_IRQHandler
+                0x08000464                DMA1_Channel7_IRQHandler
+                0x08000464                CAN1_RX1_IRQHandler
+                0x08000464                UART5_IRQHandler
+                0x08000464                ADC3_IRQHandler
+                0x08000464                TIM4_IRQHandler
+                0x08000464                DMA2_Channel1_IRQHandler
+                0x08000464                I2C1_EV_IRQHandler
+                0x08000464                DMA1_Channel6_IRQHandler
+                0x08000464                UART4_IRQHandler
+                0x08000464                TIM3_IRQHandler
+                0x08000464                RCC_IRQHandler
+                0x08000464                TIM1_TRG_COM_IRQHandler
+                0x08000464                DMA1_Channel1_IRQHandler
+                0x08000464                Default_Handler
+                0x08000464                EXTI15_10_IRQHandler
+                0x08000464                TIM7_IRQHandler
+                0x08000464                TIM5_IRQHandler
+                0x08000464                EXTI9_5_IRQHandler
+                0x08000464                SPI2_IRQHandler
+                0x08000464                DMA1_Channel5_IRQHandler
+                0x08000464                EXTI4_IRQHandler
+                0x08000464                USB_LP_CAN1_RX0_IRQHandler
+                0x08000464                USB_HP_CAN1_TX_IRQHandler
+                0x08000464                DMA1_Channel3_IRQHandler
+                0x08000464                FSMC_IRQHandler
+                0x08000464                TIM1_UP_IRQHandler
+                0x08000464                WWDG_IRQHandler
+                0x08000464                TIM2_IRQHandler
+                0x08000464                TIM1_BRK_IRQHandler
+                0x08000464                EXTI1_IRQHandler
+                0x08000464                DMA2_Channel4_5_IRQHandler
+                0x08000464                USART2_IRQHandler
+                0x08000464                I2C2_ER_IRQHandler
+                0x08000464                DMA1_Channel2_IRQHandler
+                0x08000464                TIM8_BRK_IRQHandler
+                0x08000464                CAN1_SCE_IRQHandler
+                0x08000464                FLASH_IRQHandler
+                0x08000464                SPI3_IRQHandler
+                0x08000464                I2C1_ER_IRQHandler
+                0x08000464                USBWakeUp_IRQHandler
+                0x08000464                DMA2_Channel3_IRQHandler
+ *fill*         0x08000466        0x2 
  .text.HAL_InitTick
-                0x08000424       0x4c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000424                HAL_InitTick
+                0x08000468       0x4c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000468                HAL_InitTick
  .text.HAL_Init
-                0x08000470       0x24 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000470                HAL_Init
+                0x080004b4       0x24 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080004b4                HAL_Init
  .text.HAL_IncTick
-                0x08000494       0x18 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000494                HAL_IncTick
+                0x080004d8       0x18 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080004d8                HAL_IncTick
  .text.HAL_GetTick
-                0x080004ac        0xc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080004ac                HAL_GetTick
+                0x080004f0        0xc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080004f0                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080004b8       0x24 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080004b8                HAL_NVIC_SetPriorityGrouping
+                0x080004fc       0x24 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080004fc                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080004dc       0x70 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080004dc                HAL_NVIC_SetPriority
+                0x08000520       0x70 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000520                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x08000590       0x1c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000590                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0800054c       0x28 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800054c                HAL_SYSTICK_Config
+                0x080005ac       0x28 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080005ac                HAL_SYSTICK_Config
+ .text.HAL_DMA_Abort
+                0x080005d4       0x46 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080005d4                HAL_DMA_Abort
+ *fill*         0x0800061a        0x2 
+ .text.HAL_DMA_Abort_IT
+                0x0800061c      0x16c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0800061c                HAL_DMA_Abort_IT
  .text.HAL_GPIO_Init
-                0x08000574      0x240 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000574                HAL_GPIO_Init
+                0x08000788      0x240 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08000788                HAL_GPIO_Init
  .text.RCC_Delay
-                0x080007b4       0x2c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080009c8       0x2c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x080007e0      0x410 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080007e0                HAL_RCC_OscConfig
+                0x080009f4      0x410 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080009f4                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000bf0       0x54 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000bf0                HAL_RCC_GetSysClockFreq
+                0x08000e04       0x54 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000e04                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08000c44      0x16c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000c44                HAL_RCC_ClockConfig
+                0x08000e58      0x16c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000e58                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08000db0        0xc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000db0                HAL_RCC_GetHCLKFreq
+                0x08000fc4        0xc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000fc4                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08000dbc       0x20 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000dbc                HAL_RCC_GetPCLK1Freq
+                0x08000fd0       0x20 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000fd0                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08000ddc       0x20 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000ddc                HAL_RCC_GetPCLK2Freq
+                0x08000ff0       0x20 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000ff0                HAL_RCC_GetPCLK2Freq
  .text.UART_EndRxTransfer
-                0x08000dfc       0x5c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001010       0x5c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Transmit_IT
+                0x0800106c       0x60 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x08000e58       0x94 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080010cc       0x94 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_WaitOnFlagUntilTimeout
-                0x08000eec       0x8a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001160       0x8a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x08000f76       0x60 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08000f76                HAL_UART_Init
+                0x080011ea       0x60 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080011ea                HAL_UART_Init
  .text.HAL_UART_Transmit
-                0x08000fd6       0xcc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08000fd6                HAL_UART_Transmit
- .text.HAL_UART_Receive
-                0x080010a2       0xd2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080010a2                HAL_UART_Receive
+                0x0800124a       0xcc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800124a                HAL_UART_Transmit
+ .text.HAL_UART_TxCpltCallback
+                0x08001316        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001316                HAL_UART_TxCpltCallback
+ .text.UART_EndTransmit_IT
+                0x08001318       0x1a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_RxCpltCallback
+                0x08001332        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001332                HAL_UART_RxCpltCallback
+ .text.HAL_UART_ErrorCallback
+                0x08001334        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001334                HAL_UART_ErrorCallback
+ .text.UART_DMAAbortOnError
+                0x08001336       0x10 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.UART_Receive_IT
+                0x08001346       0xe6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.HAL_UART_IRQHandler
+                0x0800142c      0x288 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800142c                HAL_UART_IRQHandler
+ .text.UART_Start_Receive_IT
+                0x080016b4       0x36 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080016b4                UART_Start_Receive_IT
+ .text.HAL_UARTEx_ReceiveToIdle_IT
+                0x080016ea       0x66 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080016ea                HAL_UARTEx_ReceiveToIdle_IT
  .text.__libc_init_array
-                0x08001174       0x48 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x08001174                __libc_init_array
- .text.memset   0x080011bc       0xa4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
-                0x080011bc                memset
+                0x08001750       0x48 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x08001750                __libc_init_array
+ .text.memset   0x08001798       0xa4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x08001798                memset
  *(.glue_7)
- .glue_7        0x08001260        0x0 linker stubs
+ .glue_7        0x0800183c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08001260        0x0 linker stubs
+ .glue_7t       0x0800183c        0x0 linker stubs
  *(.eh_frame)
  *(.init)
- .init          0x08001260        0x4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x08001260                _init
- .init          0x08001264        0x8 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800183c        0x4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0800183c                _init
+ .init          0x08001840        0x8 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0800126c        0x4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0800126c                _fini
- .fini          0x08001270        0x8 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x08001278                . = ALIGN (0x4)
-                0x08001278                _etext = .
+ .fini          0x08001848        0x4 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08001848                _fini
+ .fini          0x0800184c        0x8 d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x08001854                . = ALIGN (0x4)
+                0x08001854                _etext = .
 
-.vfp11_veneer   0x08001278        0x0
- .vfp11_veneer  0x08001278        0x0 linker stubs
+.vfp11_veneer   0x08001854        0x0
+ .vfp11_veneer  0x08001854        0x0 linker stubs
 
-.v4_bx          0x08001278        0x0
- .v4_bx         0x08001278        0x0 linker stubs
+.v4_bx          0x08001854        0x0
+ .v4_bx         0x08001854        0x0 linker stubs
 
-.iplt           0x08001278        0x0
- .iplt          0x08001278        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+.iplt           0x08001854        0x0
+ .iplt          0x08001854        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
 
-.rodata         0x08001278       0x34
-                0x08001278                . = ALIGN (0x4)
+.rodata         0x08001854       0x34
+                0x08001854                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.main.str1.4
-                0x08001278        0x7 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
- *fill*         0x0800127f        0x1 
+                0x08001854        0x7 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+ *fill*         0x0800185b        0x1 
  .rodata.AHBPrescTable
-                0x08001280       0x10 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08001280                AHBPrescTable
+                0x0800185c       0x10 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800185c                AHBPrescTable
  .rodata.APBPrescTable
-                0x08001290        0x8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08001290                APBPrescTable
+                0x0800186c        0x8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800186c                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x08001298       0x10 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001874       0x10 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x080012a8        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080012ac                . = ALIGN (0x4)
- *fill*         0x080012aa        0x2 
-                0x080012ac                _sidata = LOADADDR (.data)
+                0x08001884        0x2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001888                . = ALIGN (0x4)
+ *fill*         0x08001886        0x2 
+                0x08001888                _sidata = LOADADDR (.data)
 
-.rel.dyn        0x080012ac        0x0
- .rel.iplt      0x080012ac        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+.rel.dyn        0x08001888        0x0
+ .rel.iplt      0x08001888        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
 
-.data           0x20000000        0xc load address 0x080012ac
+.data           0x20000000        0xc load address 0x08001888
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1077,30 +1078,34 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
                 0x2000000c                . = ALIGN (0x4)
                 0x2000000c                _edata = .
 
-.igot.plt       0x2000000c        0x0 load address 0x080012b8
+.igot.plt       0x2000000c        0x0 load address 0x08001894
  .igot.plt      0x2000000c        0x0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
                 0x2000000c                . = ALIGN (0x4)
 
-.bss            0x2000000c       0xb0 load address 0x080012b8
+.bss            0x2000000c       0xb4 load address 0x08001894
                 0x2000000c                _sbss = .
                 0x2000000c                __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
  .bss.buffer    0x2000000c       0x64 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
                 0x2000000c                buffer
- .bss.huart1    0x20000070       0x48 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
-                0x20000070                huart1
- .bss.uwTick    0x200000b8        0x4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x200000b8                uwTick
+ .bss.isOver    0x20000070        0x1 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+                0x20000070                isOver
+ .bss.size      0x20000071        0x1 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+                0x20000071                size
+ *fill*         0x20000072        0x2 
+ .bss.huart1    0x20000074       0x48 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                0x20000074                huart1
+ .bss.uwTick    0x200000bc        0x4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x200000bc                uwTick
  *(COMMON)
-                0x200000bc                . = ALIGN (0x4)
-                0x200000bc                _ebss = .
-                0x200000bc                __bss_end__ = _ebss
+                0x200000c0                . = ALIGN (0x4)
+                0x200000c0                _ebss = .
+                0x200000c0                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200000bc      0x604 load address 0x080012b8
+                0x200000c0      0x600 load address 0x08001894
                 0x200000c0                . = ALIGN (0x8)
- *fill*         0x200000bc        0x4 
                 [!provide]                PROVIDE (end = .)
                 0x200000c0                PROVIDE (_end = .)
                 0x200002c0                . = (. + _Min_Heap_Size)
@@ -1138,52 +1143,56 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
  .ARM.attributes
                 0x00000179       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000001a6       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x000001a6       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .ARM.attributes
-                0x000001d3       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000001d3       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000200       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000200       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x0000022d       0x2d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x0000022d       0x2d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .ARM.attributes
-                0x0000025a       0x2d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x0000025a       0x2d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x00000287       0x1d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000287       0x2d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000002b4       0x1d d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(STM32-Clion.elf elf32-littlearm)
 LOAD linker stubs
 LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x7fe2
+.debug_info     0x00000000     0x8fbd
  .debug_info    0x00000000      0x17c CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000017c      0x8a9 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000a25      0x211 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00000c36      0x130 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00000d66      0x248 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00000fae      0x855 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x00001803       0x22 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
- .debug_info    0x00001825      0x80e CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00002033      0xdf0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00002e23      0x66f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00003492      0xa3b CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00003ecd     0x4115 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000017c      0x8b0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000a2c      0x211 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00000c3d      0x69d CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x000012da      0x248 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00001522      0xa71 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00001f93       0x22 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+ .debug_info    0x00001fb5      0x80e CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x000027c3      0xdf0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x000035b3      0x84b CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x00003dfe      0x66f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x0000446d      0xa3b CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x00004ea8     0x4115 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_abbrev   0x00000000     0x13c1
+.debug_abbrev   0x00000000     0x16db
  .debug_abbrev  0x00000000       0xbf CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
  .debug_abbrev  0x000000bf      0x215 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .debug_abbrev  0x000002d4       0xe5 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x000003b9       0x7e CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000437      0x13e CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00000575      0x1c8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x0000073d       0x12 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
- .debug_abbrev  0x0000074f      0x1f4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00000943      0x341 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000c84      0x1e6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00000e6a      0x27a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000010e4      0x2dd CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x000003b9      0x16c CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00000525      0x13e CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x00000663      0x1d1 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00000834       0x12 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+ .debug_abbrev  0x00000846      0x1f4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000a3a      0x341 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000d7b      0x223 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x00000f9e      0x1e6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001184      0x27a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x000013fe      0x2dd CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_aranges  0x00000000      0x5b0
+.debug_aranges  0x00000000      0x640
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
  .debug_aranges
@@ -1191,76 +1200,82 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
  .debug_aranges
                 0x00000050       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x00000070       0x60 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000070       0x70 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x000000d0       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000000e0       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x000000f8       0x30 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                0x00000108       0x30 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000128       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+                0x00000138       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
  .debug_aranges
-                0x00000150       0xe0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000160       0xe0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000230       0x90 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000240       0x90 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x000002c0       0x58 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x000002d0       0x80 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_aranges
-                0x00000318       0x90 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000350       0x58 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x000003a8      0x208 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000003a8       0x90 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_aranges
+                0x00000438      0x208 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_ranges   0x00000000      0x590
+.debug_ranges   0x00000000      0x610
  .debug_ranges  0x00000000       0x10 CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
  .debug_ranges  0x00000010       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .debug_ranges  0x00000030       0x10 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x00000040       0x50 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x00000090       0x18 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x000000a8       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
- .debug_ranges  0x000000c8       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
- .debug_ranges  0x000000e8       0xd0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x000001b8       0xe0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x00000298       0x48 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x000002e0       0xa0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x00000380      0x210 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_ranges  0x00000040       0x60 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x000000a0       0x18 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x000000b8       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_ranges  0x000000d8       0x20 CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+ .debug_ranges  0x000000f8       0xd0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x000001c8       0xe0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x000002a8       0x70 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_ranges  0x00000318       0x48 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x00000360       0xa0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x00000400      0x210 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_line     0x00000000     0x71a5
+.debug_line     0x00000000     0x80e9
  .debug_line    0x00000000      0x1b3 CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x000001b3      0x3cb CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000057e      0x1c6 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00000744      0x1a7 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x000008eb      0x290 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00000b7b      0x36b CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x00000ee6       0x9b CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
- .debug_line    0x00000f81      0x5a6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00001527      0x69a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00001bc1      0x656 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00002217      0xc7f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00002e96     0x430f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x000001b3      0x3d1 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000584      0x1c6 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000074a      0x373 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00000abd      0x290 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00000d4d      0x38a CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x000010d7       0x9b CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+ .debug_line    0x00001172      0x5a6 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00001718      0x69a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00001db2      0xd53 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x00002b05      0x656 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000315b      0xc7f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00003dda     0x430f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_str      0x00000000     0x1ef0
+.debug_str      0x00000000     0x2116
  .debug_str     0x00000000      0x1ce CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
                                 0x20b (size before relaxing)
- .debug_str     0x000001ce      0x5ba CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
-                                0x7bf (size before relaxing)
- .debug_str     0x00000788       0x6e CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x000001ce      0x5cc CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
+                                0x7d1 (size before relaxing)
+ .debug_str     0x0000079a       0x6e CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x245 (size before relaxing)
- .debug_str     0x000007f6       0xcb CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                                0x248 (size before relaxing)
- .debug_str     0x000008c1       0x92 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00000808      0x112 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                                0x6b5 (size before relaxing)
+ .debug_str     0x0000091a       0x92 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x27a (size before relaxing)
- .debug_str     0x00000953       0xc6 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
-                                0x6e6 (size before relaxing)
- .debug_str     0x00000a19       0x4a CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
+ .debug_str     0x000009ac      0x4bb CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+                                0xadb (size before relaxing)
+ .debug_str     0x00000e67       0x4a CMakeFiles/STM32-Clion.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj
                                  0x73 (size before relaxing)
- .debug_str     0x00000a63      0x6f0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00000eb1      0x322 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x92e (size before relaxing)
- .debug_str     0x00001153      0x3d9 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x000011d3      0x3b2 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0x9dd (size before relaxing)
- .debug_str     0x0000152c      0x15c CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00001585      0x258 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                                0x623 (size before relaxing)
+ .debug_str     0x000017dd      0x157 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x426 (size before relaxing)
- .debug_str     0x00001688      0x208 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00001934      0x208 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x651 (size before relaxing)
- .debug_str     0x00001890      0x660 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x00001b3c      0x5da CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                 0xd1a (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1273,31 +1288,34 @@ LOAD d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .comment       0x00000049       0x4a CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_frame    0x00000000      0xd64
+.debug_frame    0x00000000      0xed0
  .debug_frame   0x00000000       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Src/gpio.c.obj
  .debug_frame   0x00000028       0x58 CMakeFiles/STM32-Clion.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000080       0x28 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x000000a8       0xa8 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00000150       0x30 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00000180       0x60 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
- .debug_frame   0x000001e0      0x1cc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x000003ac      0x118 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x000004c4       0xe4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x000005a8      0x184 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x0000072c      0x5e0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00000d0c       0x2c d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00000d38       0x2c d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x000000a8       0xd0 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00000178       0x30 CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x000001a8       0x64 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
+ .debug_frame   0x0000020c      0x1cc CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x000003d8      0x118 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x000004f0      0x140 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x00000630       0xe4 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00000714      0x184 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00000898      0x5e0 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00000e78       0x2c d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00000ea4       0x2c d:/dev/qrs/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
 
-.debug_loc      0x00000000     0x5b48
+.debug_loc      0x00000000     0x6316
  .debug_loc     0x00000000       0x15 CMakeFiles/STM32-Clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_loc     0x00000015       0xff CMakeFiles/STM32-Clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_loc     0x00000114       0x84 CMakeFiles/STM32-Clion.elf.dir/Core/Src/usart.c.obj
  .debug_loc     0x00000198      0x141 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_loc     0x000002d9      0x71f CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x000009f8      0x47d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00000e75      0x618 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_loc     0x0000148d     0x46bb CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_loc     0x000009f8      0x7ce CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_loc     0x000011c6      0x47d CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x00001643      0x618 CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x00001c5b     0x46bb CMakeFiles/STM32-Clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj

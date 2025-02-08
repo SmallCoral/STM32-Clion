@@ -213,5 +213,15 @@ void USART1_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+extern uint8_t isOver;
+extern uint16_t size;
 
+// void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+//   isOver = 1;
+// }
+
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size) {
+  isOver = 1;
+  size = Size;
+}
 /* USER CODE END 1 */

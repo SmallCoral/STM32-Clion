@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+
+#include <string.h>
+
 #include "usart.h"
 #include "gpio.h"
 
@@ -56,7 +59,8 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t buffer[100];
-uint16_t size = 0;
+uint8_t size = 0;
+uint8_t isOver = 0;
 /* USER CODE END 0 */
 
 /**
@@ -100,7 +104,14 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    //以中断方式进行接收
+    HAL_UARTEx_ReceiveToIdle_IT(&huart1, buffer, 100);
+
     /* USER CODE END WHILE */
+    if (isOver) {
+      HAL_UART_Transmit(&huart1, buffer, size, 1000);
+      isOver = 0;
+    }
 
     /* USER CODE BEGIN 3 */
   }
