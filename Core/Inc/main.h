@@ -57,15 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define KET3_Pin GPIO_PIN_10
-#define KET3_GPIO_Port GPIOF
-#define KET3_EXTI_IRQn EXTI15_10_IRQn
-#define LED1_Pin GPIO_PIN_0
-#define LED1_GPIO_Port GPIOA
-#define LED2_Pin GPIO_PIN_1
-#define LED2_GPIO_Port GPIOA
-#define LED3_Pin GPIO_PIN_8
-#define LED3_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

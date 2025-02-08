@@ -18,8 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
-#include "led.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -55,7 +55,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t buffer[100];
+uint16_t size = 0;
 /* USER CODE END 0 */
 
 /**
@@ -87,9 +88,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t n = 3;
-  LED leds[] = {LED1_Pin, LED2_Pin, LED3_Pin};
+
+  //发送一个字符串
+  HAL_UART_Transmit(&huart1, "wdnmd\n", 7, 1000);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -157,6 +161,7 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
+
   }
   /* USER CODE END Error_Handler_Debug */
 }
