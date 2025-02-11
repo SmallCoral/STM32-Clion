@@ -18,11 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
-#include <string.h>
-
+#include "i2c.h"
 #include "usart.h"
 #include "gpio.h"
+#include "Inf_W24C02.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -61,6 +60,7 @@ void SystemClock_Config(void);
 uint8_t buffer[100];
 uint8_t size = 0;
 uint8_t isOver = 0;
+
 /* USER CODE END 0 */
 
 /**
@@ -93,28 +93,43 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
+  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
+  Inf_W24C02_Init();
 
-  //发送一个字符串
-  //HAL_UART_Transmit(&huart1, "wdnmd\n", 7, 1000);
+  Inf_W24C02_WriteByte(0x00, 'a');
+  uint8_t c = Inf_W24C02_ReadByte(0x00);
+  printf("c=%c\r\n", c);
+  HAL_UART_Transmit(&huart1, &c, 1,10000);
+  HAL_UART_Transmit(&huart1, "\n", 1,10000);
 
-  printf("hello world\n");
-  int a = 100;
-  printf("a = %d\n", a);
+
+  uint8_t wbuff[10] = {'h', 'e', 'l', 'l', 'o'};
+  Inf_W24C02_WriteBytes(0x01, wbuff, 5);
+
+  uint8_t a = Inf_W24C02_ReadByte(0x01);
+  HAL_UART_Transmit(&huart1, &a, 1,10000);
+  HAL_UART_Transmit(&huart1, "\n", 1,10000);
+
+  uint8_t b = Inf_W24C02_ReadByte(0x02);
+  HAL_UART_Transmit(&huart1, &b, 1,10000);
+  HAL_UART_Transmit(&huart1, "\n", 1,10000);
+
+  uint8_t d = Inf_W24C02_ReadByte(0x03);
+  HAL_UART_Transmit(&huart1, &d, 1,10000);
+  HAL_UART_Transmit(&huart1, "\n", 1,10000);
+
+  uint8_t buff[10] = {0};
+  Inf_W24C02_ReadBytes(0x00, buff, 6);
+
+  HAL_UART_Transmit(&huart1, buff, 10,10000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    //以中断方式进行接收
-    HAL_UARTEx_ReceiveToIdle_IT(&huart1, buffer, 100);
-
     /* USER CODE END WHILE */
-    if (isOver) {
-      HAL_UART_Transmit(&huart1, buffer, size, 1000);
-      isOver = 0;
-    }
 
     /* USER CODE BEGIN 3 */
   }
@@ -196,28 +211,3 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
-
-/* 告知连接器不从C库链接使用半主机的函数 */
-#pragma import(__use_no_semihosting)
-
-/* 定义 _sys_exit() 以避免使用半主机模式 */
-void _sys_exit(int x)
-
-{
-
-  x = x;
-
-}
-
-/* 标准库需要的支持类型 */
-
-struct __FILE
-
-{
-
-  int handle;
-
-};
-
-FILE __stdout;
