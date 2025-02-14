@@ -100,32 +100,6 @@ int main(void)
   Inf_W24C02_Init();
 
   HAL_TIM_Base_Start_IT(&htim6);
-  // Inf_W24C02_WriteByte(0x00, 'a');
-  // uint8_t c = Inf_W24C02_ReadByte(0x00);
-  // printf("c=%c\r\n", c);
-  // HAL_UART_Transmit(&huart1, &c, 1,10000);
-  // HAL_UART_Transmit(&huart1, "\n", 1,10000);
-  //
-  //
-  // uint8_t wbuff[10] = {'h', 'e', 'l', 'l', 'o'};
-  // Inf_W24C02_WriteBytes(0x01, wbuff, 5);
-  //
-  // uint8_t a = Inf_W24C02_ReadByte(0x01);
-  // HAL_UART_Transmit(&huart1, &a, 1,10000);
-  // HAL_UART_Transmit(&huart1, "\n", 1,10000);
-  //
-  // uint8_t b = Inf_W24C02_ReadByte(0x02);
-  // HAL_UART_Transmit(&huart1, &b, 1,10000);
-  // HAL_UART_Transmit(&huart1, "\n", 1,10000);
-  //
-  // uint8_t d = Inf_W24C02_ReadByte(0x03);
-  // HAL_UART_Transmit(&huart1, &d, 1,10000);
-  // HAL_UART_Transmit(&huart1, "\n", 1,10000);
-  //
-  // uint8_t buff[10] = {0};
-  // Inf_W24C02_ReadBytes(0x00, buff, 6);
-  //
-  // HAL_UART_Transmit(&huart1, buff, 10,10000);
 
   /* USER CODE END 2 */
 
