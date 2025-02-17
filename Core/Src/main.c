@@ -22,7 +22,6 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "Inf_W24C02.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -95,19 +94,28 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_I2C2_Init();
-  MX_TIM6_Init();
+  MX_TIM5_Init();
+  HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_2);
   /* USER CODE BEGIN 2 */
-  Inf_W24C02_Init();
-
-  HAL_TIM_Base_Start_IT(&htim6);
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
+  uint8_t dutyCycle = 1;
+  int8_t step = 1;
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
+
+    if (dutyCycle <= 0 || dutyCycle >= 99)
+    {
+      step = -step;
+    }
+    dutyCycle += step;
+    setDutyCycle(dutyCycle);
+    HAL_Delay(10);
 
     /* USER CODE BEGIN 3 */
   }
