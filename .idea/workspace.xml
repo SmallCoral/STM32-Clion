@@ -7,7 +7,6 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -30,7 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b21fd63e-a475-4f69-85d9-3d5787c5387d" name="更改" comment="2.14">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
@@ -39,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32-Clion.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32-Clion.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-02-14T07-37-59-0962.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
@@ -51,7 +48,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32-Clion.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.elf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32-Clion.map" afterDir="false" />
     </list>
@@ -164,12 +161,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.STM32-Clion">
-    <configuration name="STM32-Clion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32-Clion" TARGET_NAME="STM32-Clion.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32-Clion" RUN_TARGET_NAME="STM32-Clion.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="STM32-Clion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32-Clion" TARGET_NAME="STM32-Clion.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32-Clion" RUN_TARGET_NAME="STM32-Clion.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -234,6 +231,7 @@
       <workItem from="1739522589062" duration="3127000" />
       <workItem from="1739774416483" duration="3311000" />
       <workItem from="1739778723554" duration="2316000" />
+      <workItem from="1739865954216" duration="7922000" />
     </task>
     <task id="LOCAL-00001" summary="1.22">
       <option name="closed" value="true" />

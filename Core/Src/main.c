@@ -57,9 +57,6 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t buffer[100];
-uint8_t size = 0;
-uint8_t isOver = 0;
 
 /* USER CODE END 0 */
 
@@ -94,29 +91,25 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_I2C2_Init();
-  MX_TIM5_Init();
-  HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_2);
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
+
+  /*初始化的时候 UG已经被置位.  先清除中断标志位,防止一启动就进入中断 */
+  __HAL_TIM_CLEAR_IT(&htim1, TIM_IT_UPDATE);
+  /* 启用更新中断 */
+  __HAL_TIM_ENABLE_IT(&htim1, TIM_IT_UPDATE);
+
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  uint8_t dutyCycle = 1;
-  int8_t step = 1;
-
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
 
-    if (dutyCycle <= 0 || dutyCycle >= 99)
-    {
-      step = -step;
-    }
-    dutyCycle += step;
-    setDutyCycle(dutyCycle);
-    HAL_Delay(10);
-
+    //1234567890
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
