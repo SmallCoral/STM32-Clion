@@ -18,14 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "i2c.h"
-#include "tim.h"
+#include "dma.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+uint8_t isOver = 0;    // 定义并初始化 isOver
+uint16_t size = 0;     // 定义并初始化 size
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +57,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t src[] = {'a', 'b', 'c', 'd', 'e'};
 /* USER CODE END 0 */
 
 /**
@@ -89,17 +89,10 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_USART1_UART_Init();
-  MX_I2C2_Init();
-  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-
-  /*初始化的时候 UG已经被置位.  先清除中断标志位,防止一启动就进入中断 */
-  __HAL_TIM_CLEAR_IT(&htim1, TIM_IT_UPDATE);
-  /* 启用更新中断 */
-  __HAL_TIM_ENABLE_IT(&htim1, TIM_IT_UPDATE);
-
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+  HAL_UART_Transmit_DMA(&huart1, src, 5);
 
   /* USER CODE END 2 */
 
@@ -109,7 +102,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    //1234567890
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
